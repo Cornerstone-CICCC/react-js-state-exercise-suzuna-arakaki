@@ -1,5 +1,5 @@
 import ToggleLight from "./components/toggleLight";
-import LottoNumber from "./components/lottoNumber";
+import LottoNumbers from "./components/lottoNumbers";
 import ClickCounter from "./components/clickCounter";
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
       <ToggleLight />
 
       <h2>Lotto Numbers</h2>
-      <LottoNumber />
+      <LottoNumbers />
 
       <h2>Click Counter</h2>
       <ClickCounter />
